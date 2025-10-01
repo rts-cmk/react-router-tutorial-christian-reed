@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 export default function About() {
 	return (
 		<>
+			<Navigation />
 			<h1>React Router Tutorial</h1>
 			<div>
 				<h2>What is React Router?</h2>

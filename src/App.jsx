@@ -1,9 +1,11 @@
 import About from './components/About';
+import Navigation from './components/Navigation';
 
 function App() {
 	return (
 		<>
-			<About />
+			<Navigation />
+			<h1>React Router Tutorial</h1>
 		</>
 	);
 }

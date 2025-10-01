@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Navigation from './Navigation';
 
 export default function Dashboard() {
 	// const dashboardItems = [
@@ -19,6 +20,7 @@ export default function Dashboard() {
 
 	return (
 		<div>
+			<Navigation />
 			<h1>User Dashboard</h1>
 			<ul>
 				{users.map((user) => (
