@@ -1,16 +1,65 @@
-# React + Vite
+# Opgave: Lav en tutorial om React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Formål
 
-Currently, two official plugins are available:
+Du skal lave en pædagogisk og teknisk korrekt tutorial, der viser hvordan man bruger React Router til at navigere mellem sider i en React-applikation. Målet er at formidle din viden, så andre elever eller udviklere kan lære af din vejledning.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Læringsmål
 
-## React Compiler
+- Forstå og anvende React Router til routing i en SPA (Single Page Application)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Forklare centrale begreber som `<BrowserRouter>`, `<Routes>`, `<Route>`, og `useNavigate`
 
-## Expanding the ESLint configuration
+- Demonstrere hvordan man opretter og strukturerer flere sider i en React-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Kommunikere teknisk viden klart og målrettet
+
+- Publicere en fungerende tutorial online
+
+## Opgavekrav
+
+Du skal:
+
+1. **Introducere React Router**
+
+   Forklar kort hvad React Router er, og hvorfor det bruges i moderne webapps.
+
+2. **Installere og konfigurere**
+
+   Vis hvordan man installerer React Router via npm/yarn og sætter det op i en React-app.
+
+3. **Oprette flere sider**
+
+   Lav mindst tre komponenter (f.eks. Home, About, Contact) og vis hvordan de routes med `<Route>` og `<Routes>`.
+
+4. **Navigering**
+
+   Demonstrer brugen af `<Link>` og `useNavigate` til at skifte mellem sider.
+
+5. **Fejlhåndtering og 404-side**
+
+   Vis hvordan man håndterer ukendte routes med en fallback-side.
+
+6. **Publicering**
+
+   Din tutorial skal være tilgængelig online via GitHub Pages, Vercel, Netlify eller tilsvarende. Link til den færdige tutorial skal afleveres sammen med opgaven.
+
+7. **Tutorial-format**
+
+   Du vælger selv format:
+
+   - Video (maks 5 min)
+
+   - Skriftlig guide med kodeeksempler og screenshots
+
+## Evalueringskriterier
+
+- Klar og korrekt teknisk forklaring
+
+- Brug af relevante React Router-komponenter
+
+- Struktur og layout af tutorial
+
+- Evne til at formidle til målgruppen (andre elever)
+
+- Fungerende og tilgængelig publicering online
