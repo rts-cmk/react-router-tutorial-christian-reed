@@ -1,6 +1,6 @@
 {
-	"homepage": "https://rts-cmk.github.io/react-router-tutorial-christian-reed/",
 	"name": "react-router-tutorial-christian-reed",
+	"homepage": "https://rts-cmk.github.io/react-router-tutorial-christian-reed/",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -16,7 +16,7 @@
 		"gh-pages": "^6.3.0",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
-		"react-router": "^7.9.3"
+		"react-router-dom": "^7.9.3"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.36.0",
