@@ -87,4 +87,4 @@ ReactDOM.createRoot(root).render(
 	</Routes>
     <BrowserRouter />
     );
-                            `})})})]})]})}qv.createRoot(document.getElementById("root")).render(H.jsx(_.StrictMode,{children:H.jsx(Py,{children:H.jsxs(_y,{children:[H.jsx(Xl,{path:"/",element:H.jsx(f0,{})}),H.jsx(Xl,{path:"/dashboard",element:H.jsx(r0,{})}),H.jsx(Xl,{path:"/about",element:H.jsx(c0,{})}),H.jsx(Xl,{path:"*",element:H.jsx(o0,{})}),H.jsx(Xl,{path:"/dashboard/:id",element:H.jsx(s0,{})}),H.jsx(Xl,{path:"/howtouse",element:H.jsx(d0,{})})]})})}));
+                            `})})})]})]})}qv.createRoot(document.getElementById("root")).render(H.jsx(_.StrictMode,{children:H.jsx(Py,{children:H.jsxs(_y,{children:[H.jsx(Xl,{path:"/react-router-tutorial-christian-reed/",element:H.jsx(f0,{})}),H.jsx(Xl,{path:"/dashboard",element:H.jsx(r0,{})}),H.jsx(Xl,{path:"/about",element:H.jsx(c0,{})}),H.jsx(Xl,{path:"*",element:H.jsx(o0,{})}),H.jsx(Xl,{path:"/dashboard/:id",element:H.jsx(s0,{})}),H.jsx(Xl,{path:"/howtouse",element:H.jsx(d0,{})})]})})}));
