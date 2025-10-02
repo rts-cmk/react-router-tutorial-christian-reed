@@ -74,6 +74,101 @@ ReactDOM.createRoot(root).render(
 						</code>
 					</pre>
 				</div>
+				<p>
+					When creating navigation in your app, you use Link & NavLink
+					components. The NavLink component is for navigation links the needs an
+					active state for ex. styling.
+				</p>
+				<p>
+					Whenever a NavLink is active, it will automatically have an .active
+					class name for easy styling with CSS
+				</p>
+				<div className="codeBlockWrapper">
+					<pre>
+						<code className="codeBlock">
+							{`
+import { NavLink } from 'react-router';
+
+export default function Navigation() {
+return (
+<nav className="navWrapper">
+	<NavLink 
+    to="/react-router-tutorial-christian-reed/"
+    end className={'nav'}>
+	Home
+	</NavLink>
+	<NavLink 
+    to="/react-router-tutorial-christian-reed/about"
+    end className={'nav'}>
+	About
+	</NavLink>
+	<NavLink 
+    to="/react-router-tutorial-christian-reed/howtouse"
+    end className={'nav'}>
+	How To Use
+	</NavLink>
+</nav>
+	);
+}
+
+                            `}
+						</code>
+					</pre>
+				</div>
+				<p>
+					The Link component is used when the link doesn't need active styling.
+					Notice we do not use <code>href</code> but <code>to</code> when
+					inserting our URL.
+				</p>
+				<div className="codeBlockWrapper">
+					<pre>
+						<code className="codeBlock">{`
+<Link to={'/react-router-tutorial-christian-reed/'}>
+	<button>Go Back Home</button>
+</Link>
+                `}</code>
+					</pre>
+				</div>
+
+				<p>
+					We also want a page when there is an error or a 404. We handle these
+					by making a Route with the asterisk (*).
+				</p>
+				<p>
+					Which we link to in our main.jsx and we create a error handling
+					component. In the example beneath we used NotFoundPage component.
+				</p>
+				<p>
+					A route with an asterisk path * is a no-match route. It only matches
+					when no other routes do
+				</p>
+				<div className="codeBlockWrapper">
+					<pre>
+						<code className="codeBlock">{`
+<Route path="*" element={<NotFoundPage />} />
+                `}</code>
+					</pre>
+				</div>
+				<div className="codeBlockWrapper">
+					<pre>
+						<code className="codeBlock">{`
+import { Link } from 'react-router';
+
+export default function NotFoundPage() {
+return (
+<>
+<div>
+	<h1>Not Found Page ⊖</h1>
+	<Link to={'/react-router-tutorial-christian-reed/'}>
+	    <button>Home</button>
+	</Link>
+</div>
+</>
+	);
+}
+                `}</code>
+					</pre>
+				</div>
 			</div>
 		</>
 	);
