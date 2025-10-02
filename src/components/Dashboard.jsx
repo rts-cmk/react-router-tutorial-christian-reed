@@ -27,7 +27,7 @@ export default function Dashboard() {
 						</li>
 					))}
 				</ul>
-				<Link to={'/'}>
+				<Link to={'/react-router-tutorial-christian-reed/'}>
 					<button>Go Back Home</button>
 				</Link>
 			</div>

@@ -8,7 +8,7 @@ export default function NotFoundPage() {
 			<Navigation />
 			<div>
 				<h1>Not Found Page ⊖</h1>
-				<Link to={'/'}>
+				<Link to={'/react-router-tutorial-christian-reed/'}>
 					<button>Go Back Home</button>
 				</Link>
 			</div>
