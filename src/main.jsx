@@ -13,7 +13,10 @@ createRoot(document.getElementById('root')).render(
 	<StrictMode>
 		<BrowserRouter>
 			<Routes>
-				<Route path="/" element={<App />} />
+				<Route
+					path="/react-router-tutorial-christian-reed/"
+					element={<App />}
+				/>
 				<Route path="/dashboard" element={<Dashboard />} />
 				<Route path="/about" element={<About />} />
 				<Route path="*" element={<NotFoundPage />} />
