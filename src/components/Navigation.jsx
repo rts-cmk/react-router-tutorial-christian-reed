@@ -1,8 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router';
 
 export default function Navigation() {
 	return (
-		<nav>
+		<nav className="navWrapper">
 			<NavLink to="/" end className={'nav'}>
 				Home
 			</NavLink>
