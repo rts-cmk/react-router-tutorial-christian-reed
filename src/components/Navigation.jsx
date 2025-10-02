@@ -3,7 +3,10 @@ import { NavLink } from 'react-router';
 export default function Navigation() {
 	return (
 		<nav className="navWrapper">
-			<NavLink to="/" end className={'nav'}>
+			<NavLink
+				to="/react-router-tutorial-christian-reed/"
+				end
+				className={'nav'}>
 				Home
 			</NavLink>
 			<NavLink to="/about" end className={'nav'}>
