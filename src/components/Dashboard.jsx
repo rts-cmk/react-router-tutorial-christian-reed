@@ -21,7 +21,8 @@ export default function Dashboard() {
 				<ul>
 					{users.map((user) => (
 						<li key={user.id}>
-							<Link to={`/dashboard/${user.id}`}>
+							<Link
+								to={`/react-router-tutorial-christian-reed/dashboard/${user.id}`}>
 								<h2>{user.name}</h2>
 							</Link>
 						</li>

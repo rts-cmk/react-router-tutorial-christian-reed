@@ -20,7 +20,7 @@ export default function DashboardItems() {
 			<Navigation />
 			<div>
 				<h1>User Todos</h1>
-				<Link to={'/dashboard'}>
+				<Link to={'/react-router-tutorial-christian-reed/dashboard'}>
 					<button>Go Back</button>
 				</Link>
 				<ul>
@@ -31,7 +31,7 @@ export default function DashboardItems() {
 						</li>
 					))}
 				</ul>
-				<Link to={'/dashboard'}>
+				<Link to={'/react-router-tutorial-christian-reed/dashboard'}>
 					<button>Go Back</button>
 				</Link>
 			</div>

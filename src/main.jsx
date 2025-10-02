@@ -17,11 +17,23 @@ createRoot(document.getElementById('root')).render(
 					path="/react-router-tutorial-christian-reed/"
 					element={<App />}
 				/>
-				<Route path="/dashboard" element={<Dashboard />} />
-				<Route path="/about" element={<About />} />
+				<Route
+					path="/react-router-tutorial-christian-reed/dashboard"
+					element={<Dashboard />}
+				/>
+				<Route
+					path="/react-router-tutorial-christian-reed/about"
+					element={<About />}
+				/>
 				<Route path="*" element={<NotFoundPage />} />
-				<Route path="/dashboard/:id" element={<DashboardItems />} />
-				<Route path="/howtouse" element={<HowToUse />} />
+				<Route
+					path="/react-router-tutorial-christian-reed/dashboard/:id"
+					element={<DashboardItems />}
+				/>
+				<Route
+					path="/react-router-tutorial-christian-reed/howtouse"
+					element={<HowToUse />}
+				/>
 			</Routes>
 		</BrowserRouter>
 	</StrictMode>

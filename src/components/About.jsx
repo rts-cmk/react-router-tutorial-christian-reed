@@ -38,7 +38,7 @@ export default function About() {
 			</div>
 
 			<div>
-				<Link to={'/dashboard/'}>
+				<Link to={'/react-router-tutorial-christian-reed/dashboard/'}>
 					<button>Click here for a demo</button>
 				</Link>
 			</div>
