@@ -118,7 +118,8 @@ return (
 				<p>
 					The Link component is used when the link doesn't need active styling.
 					Notice we do not use <code>href</code> but <code>to</code> when
-					inserting our URL.
+					inserting our URL. And it does not reload the page like and{' '}
+					<code>a</code> tag would.
 				</p>
 				<div className="codeBlockWrapper">
 					<pre>
